@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { BodyComponent } from './Body/Body.component';
-import { ComponentsPageComponent } from './CustomComponents/ComponentsPage.component';
-import { AdminComponent } from './Admin/Admin.component';
+import { BodyComponent } from './Pages/Body/Body.component';
+import { ComponentsPageComponent } from './Pages/CustomComponents/ComponentsPage.component';
+import { AdminComponent } from './Pages/Admin_Pages/Admin_Body/Admin.component';
 
 export const routes: Routes = [
     {
