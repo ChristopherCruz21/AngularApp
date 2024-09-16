@@ -5,15 +5,15 @@ import { FooterComponent } from '../Footer/Footer.component';
 
 
 @Component({
-  selector: 'app-body',
+  selector: 'app-components-page',
   standalone: true,
   imports: [
     CommonModule,
     HeaderComponent,
     FooterComponent
 ],
-  templateUrl: './Body.component.html',
-  styleUrl: './Body.component.css',
+  templateUrl: './ComponentsPage.component.html',
+  styleUrl: './ComponentsPage.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class BodyComponent { }
+export class ComponentsPageComponent { }
